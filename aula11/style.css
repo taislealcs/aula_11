@@ -1,0 +1,57 @@
+h1{
+    color: rgb(0, 245, 163);
+    background-color: rgb(0, 0, 0);
+}
+
+div{
+    
+    background-color: rgba(0, 126, 245, 0.692);
+    margin: 10px 5px 10px 5px;
+    padding: 10px 5px 10px 5px;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media(max-width: 426px){
+h1{
+    
+}
+div{
+    width: 400px;
+    height: 70px;
+    font-size: 25px;
+}
+ .cards{
+    flex-direction: column-reverse;
+ }
+
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+}
+
+div:hover{
+    width: 400px;
+    height: 70px;
+}
+
+p{
+    background-color: rgb(248, 197, 130);
+    margin: 10px 5px 10px 5px;
+
+}
+
+a{
+    text-decoration: none;
+    color: rgb(238, 255, 0);
+    display: flex;
+    justify-content: center;
+    
+}
+
